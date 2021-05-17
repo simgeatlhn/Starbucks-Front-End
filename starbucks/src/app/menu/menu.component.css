@@ -1,0 +1,19 @@
+a {
+  text-decoration: none;
+  color: #2A8A15;
+  font-size: 18px;
+}
+
+h3 {
+  color: #2A8A15;
+}
+
+h3:hover {
+  color: white;
+  background-color: #2A8A15;
+  display: inline;
+}
+
+h5 {
+  font-size: 34px;
+}

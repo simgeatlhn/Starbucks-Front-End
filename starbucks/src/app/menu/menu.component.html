@@ -1,0 +1,19 @@
+<div *ngFor="let menu of menus">
+  <h5 class="p-3">{{menu.title}}</h5>
+  <h4 class=" p-3">{{menu.description}}
+  </h4>
+  <img class="p-3" a src="{{menu.image}}" alt="">
+
+  <p class="p-3"> {{menu.extra}}</p>
+</div>
+
+<div class="container p-3">
+  <div class="row">
+    <div *ngFor="let detail of details">
+      <div class="col-4 ">
+        <h3>{{detail.title}}</h3>
+        <p>{{detail.description}}</p>
+        <a href="">{{detail.etiket}}</a>
+      </div>
+    </div>
+  </div>

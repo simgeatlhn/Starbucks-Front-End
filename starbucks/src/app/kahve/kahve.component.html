@@ -1,0 +1,13 @@
+<div class="container">
+  <div class="row">
+    <div class=" icerik col-6" *ngFor="let kahve of kahves">
+      <h3 class="text-uppercase">{{kahve.title}}</h3>
+
+      <p>{{kahve.description}}</p>
+      <a *ngFor="let etiket of etikets" href=""> <strong>{{etiket.link}}</strong><br></a>
+    </div>
+    <div class="col-6">
+      <img src="assets/img-starbucks/kahve-2.png" alt="">
+    </div>
+  </div>
+</div>

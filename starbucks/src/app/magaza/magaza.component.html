@@ -1,0 +1,17 @@
+<div class="container">
+  <div class="row">
+    <div class="col-12">
+      <img class="pad" src="assets/img-starbucks/mağaza.jpg" alt="">
+    </div>
+
+    <div class="pad col-5" *ngFor="let detail of details">
+      <h3 class="pad">{{detail.title}}</h3>
+      <p>{{detail.description}}</p>
+    </div>
+  </div>
+
+  <div>
+    <li *ngFor="let etiket of etikets">
+      <a>{{etiket.contact}}</a>
+    </li>
+  </div>

@@ -1,0 +1,50 @@
+li {
+
+  left: 100px;
+  display: inline;
+  color: black;
+}
+
+.first:hover {
+  color: black;
+}
+
+
+
+.navbar {
+  font-size: 14px;
+}
+
+.navbar {
+  display: inline;
+  background-color: white;
+}
+
+.h:hover {
+  color: white;
+  background-color: rgb(30, 30, 30);
+
+}
+
+.h a:hover {
+  color: white;
+  background-color: rgb(30, 30, 30);
+}
+
+a {
+  color: black;
+
+}
+
+p {
+  color: black;
+}
+
+.icerik {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.icerik:hover {
+  background-color: chartreuse;
+}

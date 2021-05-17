@@ -1,0 +1,45 @@
+i {
+  position: relative;
+  left: 100px;
+  bottom: 15px;
+  right: 0px;
+  color: black;
+}
+
+
+i:hover {
+  opacity: 0.8;
+}
+
+li {
+  list-style-type: none;
+}
+
+.icons li i {
+  color: rgb(30, 30, 30);
+  padding-top: 30px;
+  padding-left: 10px;
+}
+
+.icons:hover {
+  opacity: 0.8;
+}
+
+.container a {
+  text-decoration: none;
+  color: rgb(30, 30, 30);
+}
+
+.container a:hover {
+  opacity: 0.6;
+
+}
+
+a {
+  display: inline;
+  margin-left: 30px;
+}
+
+.container p {
+  margin-left: 30px;
+}

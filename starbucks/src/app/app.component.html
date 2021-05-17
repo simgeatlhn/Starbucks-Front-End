@@ -1,0 +1,76 @@
+<div class="container">
+  <div class="row">
+    <div class="col-12">
+      <div class="progress">
+        <div class="progress-bar bg-success " role="progressbar" style="width:100%" aria-valuenow="25" aria-valuemin="0"
+          aria-valuemax="100"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-12">
+      <div class="container">
+        <div class="row ">
+          <div class="col-12">
+            <ul class="nav nav-tabs my-4 ">
+              <li>
+                <img class="nav-icon" src="assets/img-starbucks/logo.png">
+              </li>
+
+
+              <li class="nav-item">
+                <a href="/" class="h nav-link text-uppercase">Home</a>
+              </li>
+              <li class="nav-item">
+                <a routerLink="/kahve" class="h nav-link text-uppercase" routerLinkActive="active">Kahve</a>
+              </li>
+              <li class="nav-item">
+                <a routerLink="/menu" class="h nav-link text-uppercase" routerLinkActive=" active">Menü</a>
+              </li>
+              <li class="nav-item">
+                <a routerLink="/magaza" class="h nav-link text-uppercase" routerLinkActive="active">Mağaza</a>
+              </li>
+              <li class="nav-item">
+                <a routerLink="/sosyalsorumluluk" class="h nav-link text-uppercase" routerLinkActive="active">sosyal
+                  sorumluluk</a>
+              </li>
+              <li class="nav-item">
+                <a routerLink="/starbuckscard" class="h nav-link text-uppercase" routerLinkActive="active">starbucks
+                  card</a>
+              </li>
+              <li class="nav-item">
+                <a routerLink="/starbucksdelivers" class="h nav-link text-uppercase" routerLinkActive="active">starbucks
+                  delivers</a>
+              </li>
+              <li class="nav-item">
+                <i class="fas fa-map-marker-alt">
+                  <a href="https://www.starbuckscardtr.com/stores" style="text-decoration: none;">Mağazalarımız</a>
+                </i>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-12">
+            <router-outlet></router-outlet>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <footer></footer>
+          </div>
+        </div>
+      </div>
+    </footer>
